@@ -1,1 +1,26 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
+<http://njh.me/>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <http://njh.me/#me> ;
+  foaf:primaryTopic <http://njh.me/#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<http://njh.me/#me>
+  a foaf:Person ;
+  foaf:name "Jovana Krstikj" ;
+  foaf:givenname "Jovana" ;
+  foaf:family_name "Krstikj" ;
+  foaf:nick "Jovka" ;
+  foaf:mbox_sha1sum "1b653934b72b7af9cc6de43788d9d92663882265" ;
+  foaf:homepage <https://raw.githubusercontent.com/krsticjovana/FOAF/main/foaf.ttl> ;
+  foaf:schoolHomepage <https://finki.ukim.mk/> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Robert Ilievski" ;
+    foaf:mbox_sha1sum "0d0920dbd1fefc79df42a5493d0e137b2456d692" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/robert-ilievski/wbs-foaf/master/foaf.ttl?fbclid=IwAR3AbQlpdyME23LSTw4mCEy9IHj2Oub5B5WZ_ASECnNHiEpkWvgBEaPWMZw>
+  ] .
