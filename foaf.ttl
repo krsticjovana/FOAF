@@ -14,6 +14,6 @@
 <foaf:givenname>Jovana</foaf:givenname>
 <foaf:family_name>Krstikj</foaf:family_name>
 <foaf:nick>Jovka</foaf:nick>
-<foaf:mbox_sha1sum>88c0be6581d61cda5bd254c35906e89da97d9ba5</foaf:mbox_sha1sum>
+<foaf:mbox_sha1sum>1b653934b72b7af9cc6de43788d9d92663882265</foaf:mbox_sha1sum>
 <foaf:schoolHomepage rdf:resource="https://finki.ukim.mk/"/></foaf:Person>
 </rdf:RDF>
